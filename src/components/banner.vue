@@ -33,10 +33,10 @@
 export default {
     data(){
         return {
-            jsrc:"../../public/js/index.js"
+            jsrc:"../../public/js/jquery-1.11.3.js"
         }
     },
-    created:{
+    /* created:{
         function(){
         var i=0;
         var count=6;
@@ -81,18 +81,18 @@ export default {
             }
         }
         // 自动轮播
-            var timer=setInterval(function(){
+        var timer=setInterval(function(){
             moveTo();
-            },interval);
-            banner.onmouseover=function(){
-            clearInterval(timer);
-            }
-            banner.onmouseout=function(){
+        },interval);
+        banner.onmouseover=function(){
+        clearInterval(timer);
+        }
+        banner.onmouseout=function(){
             timer=setInterval(function(){
                 moveTo();
             },interval);
-            }
-            }
-            }
+        }
+        }
+        } */
         }
 </script>
